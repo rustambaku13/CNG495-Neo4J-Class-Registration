@@ -12,7 +12,7 @@ import TakenCourses from './componenets/TakenCourses';
 import RegisterCourses from './componenets/RegisterCourses';
 import AllCoursesPage from './componenets/AllCoursesPage';
 const driver = neo4j.driver(
-  'neo4j://localhost'  
+  'neo4j://93.182.107.142'  
 )
 let session = driver.session({ defaultAccessMode: neo4j.session.READ,database: 'neo4j', }); 
 function App() {  
